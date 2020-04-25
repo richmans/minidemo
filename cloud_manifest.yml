@@ -1,0 +1,4 @@
+name: minidemo
+expose:
+- proto: http
+  port: 5000
