@@ -4,7 +4,7 @@ from flask_restful import Resource, Api
 app = Flask(__name__)
 api = Api(app)
 
-greetings = {}
+greetings = {'world': 'hello world'}
 
 class Greeting(Resource):
     def get(self, greeting_id):
